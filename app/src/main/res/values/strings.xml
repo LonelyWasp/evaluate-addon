@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EvaluateLib</string>
+    <string name="evaluate_app_format">Rate %1$s</string>
+    <string name="evaluate_remind_later">Remind me later</string>
+    <string name="evaluate_no_thanks">No, thanks</string>
+    <string name="evaluate_title_format">If you enjoy using %1$s, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+</resources>

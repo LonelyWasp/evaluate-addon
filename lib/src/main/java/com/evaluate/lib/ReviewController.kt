@@ -15,8 +15,8 @@ class ReviewController {
 
     private lateinit var reviewManager: ReviewManager
 
-    fun Activity.showReviewDialog(config: AndroidDialogConfig) {
-        MaterialDialog(this).show {
+    fun showReviewDialog(activity: Activity, config: AndroidDialogConfig) {
+        MaterialDialog(activity).show {
             title(text = config.title)
             message(text = config.description)
             cornerRadius(config.dialogCornerRadii)
@@ -26,7 +26,7 @@ class ReviewController {
             }
 
             positiveButton(text = config.rateBtnText) { dialog ->
-                openGooglePlay()
+                activity.openGooglePlay()
                 dialog.dismiss()
             }
             negativeButton(text = config.laterBtnText) { dialog ->

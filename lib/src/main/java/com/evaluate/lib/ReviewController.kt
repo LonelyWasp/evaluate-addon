@@ -27,7 +27,7 @@ class ReviewController {
             }
 
             positiveButton(text = activity.getString(R.string.evaluate_write_review)) { dialog ->
-                activity.openGooglePlay()
+                activity.openGooglePlay(config.appPackageName)
                 dialog.dismiss()
             }
             negativeButton(text = activity.getString(R.string.evaluate_remind_later)) { dialog ->
@@ -37,9 +37,7 @@ class ReviewController {
         }
     }
 
-    private fun Context.openGooglePlay() {
-        val appPackageName: String = packageName
-
+    private fun Context.openGooglePlay(appPackageName: String) {
         try {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("$MARKET_DETAILS$appPackageName")))
         } catch (ex: ActivityNotFoundException) {

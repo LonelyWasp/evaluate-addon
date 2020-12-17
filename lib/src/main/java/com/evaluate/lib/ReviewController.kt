@@ -17,26 +17,27 @@ class ReviewController {
 
     fun showReviewDialog(activity: Activity, config: AndroidDialogConfig) {
         MaterialDialog(activity).show {
-            title(text = config.title)
-            message(text = config.description)
+
+            title(text = activity.getString(R.string.evaluate_title_format, config.appName))
+            message(text = activity.getString(R.string.evaluate_description_format, config.appName))
             cornerRadius(config.dialogCornerRadii)
             cancelOnTouchOutside(config.cancelIfTouchOutside)
             config.icon?.let {
                 icon(it)
             }
 
-            positiveButton(text = config.rateBtnText) { dialog ->
+            positiveButton(text = activity.getString(R.string.evaluate_write_review)) { dialog ->
                 activity.openGooglePlay()
                 dialog.dismiss()
             }
-            negativeButton(text = config.laterBtnText) { dialog ->
+            negativeButton(text = activity.getString(R.string.evaluate_remind_later)) { dialog ->
 
                 dialog.dismiss()
             }
         }
     }
 
-    fun Context.openGooglePlay() {
+    private fun Context.openGooglePlay() {
         val appPackageName: String = packageName
 
         try {
@@ -63,13 +64,3 @@ class ReviewController {
 
 private const val MARKET_DETAILS = "market://details?id="
 private const val WEB_GOOGLE_PLAY = "https://play.google.com/store/apps/details?id="
-
-
-private const val REVIEW_DEFAULT_TITLE = "Rate our app"
-private const val REVIEW_DEFAULT_DESCRIPTION =
-        "If you enjoy using our app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!"
-private const val REVIEW_DEFAULT_BTN_DONT_SHOW_AGAIN = "Don\'t show again"
-private const val REVIEW_DEFAULT_BTN_WRITE_REVIEW = "Write a review in Google Play"
-private const val REVIEW_DEFAULT_BTN_REMIND_LATER = "Remind me later"
-private const val REVIEW_DEFAULT_ERROR_SHOW_IN_APP_REVIEW =
-        "An error occurred. Please try again later!"

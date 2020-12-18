@@ -6,6 +6,7 @@ data class AndroidDialogConfig(
         val appName: String,
         val appPackageName: String,
         val cancelIfTouchOutside: Boolean,
+        val showNoThanksButton: Boolean,
         val dialogCornerRadii: Float,
         @DrawableRes val icon: Int?,
 )

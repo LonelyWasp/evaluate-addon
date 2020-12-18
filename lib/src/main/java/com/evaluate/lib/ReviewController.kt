@@ -6,12 +6,12 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import com.afollestad.materialdialogs.MaterialDialog
-import com.evaluate.lib.callbacks.InAppReviewListener
+import com.evaluate.lib.callbacks.ReviewListener
 import com.evaluate.lib.model.AndroidDialogConfig
 import com.google.android.play.core.review.ReviewManager
 import com.google.android.play.core.review.ReviewManagerFactory
 
-class ReviewController {
+class ReviewController(private val listener: ReviewListener) {
 
     private lateinit var reviewManager: ReviewManager
 
@@ -31,8 +31,13 @@ class ReviewController {
                 dialog.dismiss()
             }
             negativeButton(text = activity.getString(R.string.evaluate_remind_later)) { dialog ->
-
+                listener.onRemindLaterClicked()
                 dialog.dismiss()
+            }
+            if (config.showNoThanksButton) {
+                neutralButton(text = activity.getString(R.string.evaluate_no_thanks)) {
+                    listener.onNoThanksBtnClicked()
+                }
             }
         }
     }
@@ -45,7 +50,7 @@ class ReviewController {
         }
     }
 
-    fun showInAppReview(activity: Activity, listener: InAppReviewListener) {
+    fun showInAppReview(activity: Activity) {
         reviewManager = ReviewManagerFactory.create(activity)
         val request = reviewManager.requestReviewFlow()
         request.addOnCompleteListener { task ->
@@ -53,7 +58,7 @@ class ReviewController {
                 val reviewInfo = task.result
                 val flow = reviewManager.launchReviewFlow(activity, reviewInfo)
                 flow.addOnCompleteListener { _ ->
-                    listener.onReviewCompleted()
+                    listener.onInAppReviewCompleted()
                 }
             }
         }

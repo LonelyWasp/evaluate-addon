@@ -4,4 +4,5 @@ interface ReviewListener {
     fun onInAppReviewCompleted()
     fun onNoThanksBtnClicked()
     fun onRemindLaterClicked()
+    fun onWriteReviewClicked()
 }

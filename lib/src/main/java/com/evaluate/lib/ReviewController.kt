@@ -27,6 +27,7 @@ class ReviewController(private val listener: ReviewListener) {
             }
 
             positiveButton(text = activity.getString(R.string.evaluate_write_review)) { dialog ->
+                listener.onWriteReviewClicked()
                 activity.openGooglePlay(config.appPackageName)
                 dialog.dismiss()
             }

@@ -1,9 +1,0 @@
-<resources>
-    <string name="evaluate_title_format">給「%1$s」評分</string>
-    <string name="evaluate_remind_later">稍後提醒我</string>
-    <string name="evaluate_write_review">在Google Play中撰寫評論</string>
-    <string name="evaluate_no_thanks">不，謝謝</string>
-    <string name="evaluate_description_format">
-        如果你喜歡使用「%1$s」，你介意花一點時間給它評分嗎？不會超過一分鐘。感謝您的支持！
-    </string>
-</resources>

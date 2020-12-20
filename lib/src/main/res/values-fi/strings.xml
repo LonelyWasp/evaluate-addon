@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Arvioi %1$s</string>
+    <string name="evaluate_remind_later">Muistuta minua myöhemmin</string>
+    <string name="evaluate_write_review">Kirjoita arvostelu Google Play</string>
+    <string name="evaluate_no_thanks">Ei kiitos</string>
+    <string name="evaluate_description_format">
+        Jos käytät mielelläsi %1$s, voisitko käyttää hetken ja arvostella sen? Se ei kestä minuuttia kauempaa. \nKiitos tuestasi!
+    </string>
+</resources>

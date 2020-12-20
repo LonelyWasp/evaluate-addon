@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Оценить %1$s</string>
+    <string name="evaluate_remind_later">Напомнить позже</string>
+    <string name="evaluate_write_review">Напишите отзыв в Google Play</string>
+    <string name="evaluate_no_thanks">Нет, спасибо</string>
+    <string name="evaluate_description_format">
+        Если Вам нравится %1$s, пожалуйста, поставьте свою оценку. Это займет у Вас не больше одной минуты. \nСпасибо за поддержку!
+    </string>
+</resources>

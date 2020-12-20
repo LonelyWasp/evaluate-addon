@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Đánh giá %1$s</string>
+    <string name="evaluate_remind_later">Hãy nhắc nhở tôi sau</string>
+    <string name="evaluate_write_review">Viết đánh giá trong Google Play</string>
+    <string name="evaluate_no_thanks">Không, xin cảm ơn</string>
+    <string name="evaluate_description_format">
+        Cảm ơn bạn đã sử dụng ứng dụng %1$s trong thời gian qua, bạn có thể dành chút thời gian để đánh giá ứng dụng trong Google Play không
+    </string>
+</resources>

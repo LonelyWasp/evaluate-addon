@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">قيم  %1$s</string>
+    <string name="evaluate_remind_later">ذكرني لاحقا</string>
+    <string name="evaluate_write_review">اكتب مراجعة في متجر التطبيقات</string>
+    <string name="evaluate_no_thanks">لا شكرا</string>
+    <string name="evaluate_description_format">
+        إذا كنت تستمع باستخدام %1$s، فهل تمانع بأن تأخذ دقيقة من وقتك لتقيمه؟ لن يستغرق الأمر أكثر من دقيقة. شكرا لدعمك
+        </string>
+</resources>

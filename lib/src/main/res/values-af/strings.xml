@@ -1,0 +1,7 @@
+<resources>
+    <string name="evaluate_title_format">Gradeer %1$s</string>
+    <string name="evaluate_remind_later">Herinner my later</string>
+    <string name="evaluate_write_review">Skryf \'n resensie in die Google Play</string>
+    <string name="evaluate_no_thanks">Nee dankie</string>
+    <string name="evaluate_description_format">As u daarvan hou om die %1$s te gebruik, sal u dit dan noukeurig doen om dit te beoordeel? Dit duur nie meer as \'n minuut nie. \nDankie vir jou ondersteuning!</string>
+</resources>

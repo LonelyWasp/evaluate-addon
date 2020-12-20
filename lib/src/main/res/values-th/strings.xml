@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">ให้อันดับ %1$s</string>
+    <string name="evaluate_remind_later">เตือนฉันภายหลัง</string>
+    <string name="evaluate_write_review">เขียนรีวิวใน Google Play</string>
+    <string name="evaluate_no_thanks">ไม่ ขอบคุณ</string>
+    <string name="evaluate_description_format">
+        ถ้าคุณกำลังใช้ %1$s โปรดสละเวลาสักครู่ในการให้อันดับแก่เรา คุณจะเสียเวลาไม่เกินหนึ่งนาที ขอบคุณสำหรับการสนับสนุน!
+    </string>
+</resources>

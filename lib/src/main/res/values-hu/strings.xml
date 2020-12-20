@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">%1$s értékelése</string>
+    <string name="evaluate_remind_later">Emlékeztess később</string>
+    <string name="evaluate_write_review">Írjon véleményt az Google Play-ban</string>
+    <string name="evaluate_no_thanks">Most inkább nem</string>
+    <string name="evaluate_description_format">
+        Ha tetszik a %1$s, ne felejtsd el értékelni az App Store-ban! Csak egy perc az egész. \nKöszönet a támogatásért!
+    </string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Oceń %1$s</string>
+    <string name="evaluate_remind_later">Przypomnij później</string>
+    <string name="evaluate_write_review">Napisz recenzję w Google Play</string>
+    <string name="evaluate_no_thanks">Nie, dziękuję</string>
+    <string name="evaluate_description_format">
+        Jeżeli podoba Ci się korzystanie z %1$s, może zechciałbyś poświęcić chwilę czasu, aby ocenić aplikację? Nie zajmie Ci to więcej niż minutę. Dziękujemy za pomoc!
+    </string>
+</resources>

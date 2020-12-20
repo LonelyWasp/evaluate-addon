@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Tarafkan %1$s</string>
+    <string name="evaluate_remind_later">Ingatkan saya lain kali</string>
+    <string name="evaluate_write_review">Tulis ulasan di Google Play</string>
+    <string name="evaluate_no_thanks">Terima kasih saja</string>
+    <string name="evaluate_description_format">
+        Jika anda suka %1$s, bolehkah luangkan sedikit masa untuk beri penarafan? Tak sampai seminit pun. \nTerima kasih atas sokongan anda!
+    </string>
+</resources>

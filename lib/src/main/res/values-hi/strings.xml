@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">रेट %1$s</string>
+    <string name="evaluate_remind_later">मुझे बाद में याद दिलाना</string>
+    <string name="evaluate_write_review">ऐप स्टोर में एक समीक्षा लिखें</string>
+    <string name="evaluate_no_thanks">जी नहीं, धन्यवाद</string>
+    <string name="evaluate_description_format">
+        यदि आप %1$s का उपयोग करने का आनंद लेते हैं, तो क्या आप इसे रेट करने में एक पल का समय लेंगे? इसमें एक मिनट से अधिक समय नहीं लगेगा। आपके समर्थन के लिए धन्यवाद!
+    </string>
+</resources>

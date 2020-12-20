@@ -1,0 +1,7 @@
+<resources>
+    <string name="evaluate_title_format">Βαθμολόγηση του %1$s</string>
+    <string name="evaluate_remind_later">Υπενθύμιση αργότερα</string>
+    <string name="evaluate_write_review">Γράψτε μια κριτική στο Google Play</string>
+    <string name="evaluate_no_thanks">Όχι, ευχαριστώ</string>
+    <string name="evaluate_description_format">Αν σου αρέσει το %1$s, θα μπορούσες να αφιερώσεις μια στιγμή για να το βαθμολογήσεις; Η διαδικασία είναι πολύ σύντομη. \nΕυχαριστούμε για τη στήριξη!</string>
+</resources>

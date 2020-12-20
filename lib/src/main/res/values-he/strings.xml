@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">דרג את %1$s</string>
+    <string name="evaluate_remind_later">מאוחר יותר</string>
+    <string name="evaluate_write_review">כתוב ביקורת ב-Google Play</string>
+    <string name="evaluate_no_thanks">לא תודה</string>
+    <string name="evaluate_description_format">
+        אם נהנת להשתמש ב %1$s, האם תסכים לדרג אותה? זה לא יקח יותר מדקה. תודה על התמיכה!
+    </string>
+</resources>

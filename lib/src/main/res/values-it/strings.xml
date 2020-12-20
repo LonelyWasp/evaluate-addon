@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Dai un voto per %1$s</string>
+    <string name="evaluate_remind_later">Ricordamelo più tard</string>
+    <string name="evaluate_write_review">Scrivi una recensione nell Google Play</string>
+    <string name="evaluate_no_thanks">No, grazie</string>
+    <string name="evaluate_description_format">
+        Se ti piace %1$s, dagli una nota, non ci vorrà molto. \nGrazie per il vostro sostegno!
+    </string>
+</resources>

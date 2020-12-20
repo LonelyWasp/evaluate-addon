@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Ocijeni %1$s</string>
+    <string name="evaluate_remind_later">Podsjeti me kasnije</string>
+    <string name="evaluate_write_review">Napišite recenziju u Google Play</string>
+    <string name="evaluate_no_thanks">Ne hvala</string>
+    <string name="evaluate_description_format">
+        Ako uživate koristiti %1$s, biste li iskoristili trenutak da biste ga ocijenili? Neće trebati više od minute. \nHvala na podršci!
+    </string>
+</resources>

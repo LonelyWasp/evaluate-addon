@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Rating %1$s</string>
+    <string name="evaluate_remind_later">Silakan ingatkan saya lagi</string>
+    <string name="evaluate_write_review">Tulis ulasan di Google Play</string>
+    <string name="evaluate_no_thanks">Tidak, terimakasih</string>
+    <string name="evaluate_description_format">
+        Jika anda menyukai %1$s, maukah anda memberikan rating kepada aplikasi ini? Rating hanya memakan waktu kurang dari 1 menit. \nTerimakasih untuk dukungan anda!
+    </string>
+</resources>

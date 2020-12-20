@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Betygsätt %1$s</string>
+    <string name="evaluate_remind_later">Påminn mig senare</string>
+    <string name="evaluate_write_review">Skriv en recension i Google Play</string>
+    <string name="evaluate_no_thanks">Nej tack</string>
+    <string name="evaluate_description_format">
+        Om du gillar att använda %1$s, kan du tänka dig att betygsätta det åt oss? Det tar bara en minut. \nTack för hjälpen!
+    </string>
+</resources>

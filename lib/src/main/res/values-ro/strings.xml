@@ -1,0 +1,7 @@
+<resources>
+    <string name="evaluate_title_format">Acordă o notă pentru %1$s</string>
+    <string name="evaluate_remind_later">Adu-mi aminte mai târziu</string>
+    <string name="evaluate_write_review">Scrieți-ne o recenzie în  Google Play</string>
+    <string name="evaluate_no_thanks">Nu, mulțumesc</string>
+    <string name="evaluate_description_format"> Dacă îți place %1$s, acordă-ne o notă te rugăm, nu durează mult. \nMulțumim pentru susținere! </string>
+</resources>

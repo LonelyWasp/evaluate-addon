@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">%1$sを評価する</string>
+    <string name="evaluate_remind_later">あとで</string>
+    <string name="evaluate_write_review">Google Playでレビューを書く</string>
+    <string name="evaluate_no_thanks">結構です</string>
+    <string name="evaluate_description_format">
+        %1$sをお使いいただきありがとうございます。もしよろしければ、ほんの少しだけお時間をいただき評価をお願いできませんか？ご協力感謝いたします!
+    </string>
+</resources>

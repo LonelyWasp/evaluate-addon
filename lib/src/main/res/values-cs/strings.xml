@@ -1,0 +1,7 @@
+<resources>
+    <string name="evaluate_title_format">Ohodnotit %1$s</string>
+    <string name="evaluate_remind_later">Možná později</string>
+    <string name="evaluate_write_review">Napište recenzi v Google Play</string>
+    <string name="evaluate_no_thanks">Ne, díky</string>
+    <string name="evaluate_description_format">Pokud se Vám aplikace %1$s líbí, mohli byste ji prosím ohodnotit v App Store? Zabere to jen chvilku. Díky za Vaši podporu!</string>
+</resources>

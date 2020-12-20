@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">Ohodnoť %1$s</string>
+    <string name="evaluate_remind_later">Pripomeň mi neskôr</string>
+    <string name="evaluate_write_review">Napísať recenziu v Google Play</string>
+    <string name="evaluate_no_thanks">Nie ďakujem</string>
+    <string name="evaluate_description_format">
+        Ak radi používate %1$s, nevadilo by vám ho chvíľu hodnotiť? Nebude to trvať dlhšie ako minútu. \nĎakujem za tvoju podporu!
+    </string>
+</resources>

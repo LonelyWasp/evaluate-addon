@@ -1,0 +1,9 @@
+<resources>
+    <string name="evaluate_title_format">%1$s beoordelen</string>
+    <string name="evaluate_remind_later">Herinner me er later aan</string>
+    <string name="evaluate_write_review">Schrijf een recensie in de Google Play</string>
+    <string name="evaluate_no_thanks">Nee, bedankt</string>
+    <string name="evaluate_description_format">
+        Als het gebruik van %1$s je bevalt, zou je dan een momentje de tijd willen nemen om het te beoordelen? Het duurt nog geen minuut. \nBedankt voor je steun!
+    </string>
+</resources>
